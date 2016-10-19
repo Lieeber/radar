@@ -11,7 +11,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="demo.lieeber.com.radar.MainActivity">
 
-    <demo.lieeber.com.radar.lineView
+    <demo.lieeber.com.radar.RadarView
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_centerInParent="true"/>

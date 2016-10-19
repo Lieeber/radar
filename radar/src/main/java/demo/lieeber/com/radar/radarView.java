@@ -14,7 +14,7 @@ import android.view.View;
  * Created by lieeber on 16/10/18.
  */
 
-public class lineView extends View {
+public class RadarView extends View {
 
     private Paint mPaint;
 
@@ -30,12 +30,12 @@ public class lineView extends View {
 
     PointF[] areaPoint = new PointF[6];
 
-    public lineView(Context context) {
+    public RadarView(Context context) {
         super(context);
         initView();
     }
 
-    public lineView(Context context, AttributeSet attrs) {
+    public RadarView(Context context, AttributeSet attrs) {
         super(context, attrs);
         initView();
 
